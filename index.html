@@ -5,10 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mystyle.css">
-    <title>Landing Page</title>
+    <script src="https://kit.fontawesome.com/7fae37bdcc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="mystyles.css">
+    <link rel="shortcut icon" type="image/png" href="https://i.ibb.co/ByNkdS4/icons8-keyboard-100.png" />
+    <title>VintageKeebs Landing Page</title>
 </head>
-<div id=page-wrapper></div>
+
+
 
 <body>
     <header id="header">
@@ -17,90 +20,106 @@
         </div>
         <div class="nav-bar">
             <ul>
-                <li class="nav-link">Why VintageKeebs?</li>
-                <li class="nav-link">Features</li>
-                <li class="nav-link">Pricing</li>
+                <li class="nav-link"><a href="#why-vintagekeebs">Why VintageKeebs?</a></li>
+                <li class="nav-link"><a href="#features">Features</a></li>
+                <li class="nav-link"><a href="#pricing">Pricing</a></li>
             </ul>
         </div>
     </header>
-    <h2>Why Buy a Vintage Keyboard?</h2>
-    <section id="why-vintagekeebs">
-        <iframe id="video" height="315" width="550" src="https://www.youtube.com/embed/6Wym49aXxzM" frameborder="0" allowfullscreen></iframe>
-    </section>
-
-    <div class="container">
-        <h2>Features</h2>
-        <section id="feautures">
-            <div class="grid">
-                <div class="icon">
-                    <i class="fa fa-3x fa-flex"></i>
-                </div>
-                <div class="desc">
-                    <h3>Sturdy and Reliable</h3>
-                    <p>Our <b>premium</b> keyboards are made of the best materials, including PCB doubleshot keycaps and excellent craftmanship</p>
-                </div>
-            </div>
-            <div class="grid">
-                <div class="icon">
-                    <i class="fa fa-3x fa-time"></i>
-                </div>
-                <div class="desc">
-                    <h3>Built to Last for Decades, Not Years</h3>
-                    <p>The materials used in the production of our keyboards (well over 5lbs of steel and other metals) means they will be working as good as new when it's time to pass it on to your grandchildren.</p>
-                </div>
-            </div>
-            <div class="grid">
-                <div class="icon">
-                    <i class="fa fa-3x fa-truck"></i>
-                </div>
-                <div class="desc">
-                    <h3>Built to Last for Decades, Not Years</h3>
-                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied with the product.</p>
-                </div>
-            </div>
-
+    <div id=page-wrapper>
+        <h2>Why Buy a Vintage Keyboard?</h2>
+        <section id="why-vintagekeebs">
+            <iframe id="video" height="500" width="1000" src="https://www.youtube.com/embed/6Wym49aXxzM" frameborder="0" allowfullscreen></iframe>
         </section>
-        <section id="pricing">
-            <div class="product" id="ku-0225">
-                <div class="level">LENOVO KU-0225</div>
-                <img src="#" alt="">
-                <h3>$15</h3>
-                <ol>
-                    <li>Realiable</li>
-                    <li>Made for hardcore office use</li>
-                    <li>Cheap and affordable but great quality and feel</li>
-                </ol>
 
-                <button class="btn">Select</button>
-            </div>
-            <div class="product" id="new-model-m">
-                <div class="level">Unicomp's New Model M</div>
-                <img src="#" alt="">
-                <h3>$100</h3>
-                <ol>
-                    <li>Direct Descendant from original IBM's Model M keyboards</li>
-                    <li>Made with new tooling</li>
-                    <li>Best option to get an affordable Brand New IBM Model M keyboard</li>
-                </ol>
+        <div class="container">
+            <h2>Features</h2>
+            <section id="features">
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fa-solid fa-4x fa-chess-rook"></i>
+                    </div>
+                    <div class="desc">
+                        <h3>Sturdy and Reliable</h3>
+                        <p>Our <b>premium</b> keyboards are made of the best materials, including PCB doubleshot keycaps and excellent craftmanship.</p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fa-solid fa-4x fa-hourglass"></i>
+                    </div>
+                    <div class="desc">
+                        <h3>Built to Last for Decades, Not Years</h3>
+                        <p>The materials used in the production of our keyboards (well over 5lbs of steel and other metals) means they will be working as good as new when it's time to pass it on to your grandchildren.</p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fa fa-4x fa-truck"></i>
+                    </div>
+                    <div class="desc">
+                        <h3>Fast Shipping</h3>
+                        <p>We make sure you recieve your keyboard as soon as we have finished making it. We also provide free returns if you are not satisfied with the product.</p>
+                    </div>
+                </div>
 
-                <button class="btn">Select</button>
-            </div>
-            <div class="product" id="new-model-m">
-                <div class="level">Unicomp's New Model M</div>
-                <img src="#" alt="">
-                <h3>$100</h3>
-                <ol>
-                    <li>Direct Descendant from original IBM's Model M keyboards</li>
-                    <li>Made with new tooling</li>
-                    <li>Best option to get an affordable Brand New IBM Model M keyboard</li>
-                </ol>
+            </section>
+            <h2>Products</h2>
+            <section id="pricing">
+                <div class="product" id="ku-0225">
+                    <div class="level">LENOVO KU-0225</div>
+                    <img class="product-img" src="https://i.ibb.co/1zrtcvd/ku-0225.jpg" alt="LENOVO keyboard model ku-0225">
+                    <iframe class="product-vid" id="video" height="315" width="550" src="https://www.youtube.com/embed/3vL-wtSXJ1E" frameborder="0" allowfullscreen></iframe>
+                    <h3>$15</h3>
+                    <ol>
+                        <li>Realiable</li>
+                        <li>Made for hardcore office use</li>
+                        <li>Cheap and affordable but great quality and feel</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="product" id="new-model-m">
+                    <div class="level">NEW MODEL M</div>
+                    <img class="product-img" src="https://i.ibb.co/hmtB3km/UNICOMP-New-Model-M.jpg" alt="UNICOMP'S NEW MODEL M">
+                    <iframe class="product-vid" id="video" height="315" width="550" src="https://www.youtube.com/embed/u39sDlCh9Vc" frameborder="0" allowfullscreen></iframe>
+                    <h3>$100</h3>
+                    <ol>
+                        <li>Direct Descendant from original IBM's Model M keyboards</li>
+                        <li>Made with new tooling</li>
+                        <li>Best option to get an affordable Brand New IBM Model M keyboard</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="product" id="model-f">
+                    <div class="level">F77 MODEL F</div>
+                    <img class="product-img" src="https://i.ibb.co/k49vvf8/F77-MODEL-F-2.jpg" alt="IBM'S F77-MODEL-F">
+                    <iframe class="product-vid" id="video" height="315" width="550" src="https://www.youtube.com/embed/O_XhRdWdphU" frameborder="0" allowfullscreen></iframe>
+                    <h3>$300+</h3>
+                    <ol>
+                        <li>Direct Descendant from original IBM's Model F keyboards</li>
+                        <li>Considered one of the best keyboards in the world</li>
+                        <li>Best keyboard quality, made witht he best materials ensuring "as new" functionality even after several years of use</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+            </section>
+            <section id="hero">
+                <h2>Handcrafted, life-lasting masterpieces</h2>
+                <form action="https://www.freecodecamp.com/email-submit" id="form">
+                    <input type="email" name="email" id="email" placeholder="Enter your E-mail" required>
+                    <input type="submit" value="Get Started" class="btn">
+                </form>
+            </section>
 
-                <button class="btn">Select</button>
-            </div>
-        </section>
-    </div>
-
-
+        </div>
+        <footer>
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <span>Copyright © 2022, VintageKeebs</span>
+        </footer>
 </body>
 
 </html>
