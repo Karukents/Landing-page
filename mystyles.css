@@ -276,7 +276,8 @@
     .product>ol>li {
         padding: 5px 0;
         list-style: none;
-        text-align: left;
+        text-align: center;
+        font-weight: bold;
     }
     
     .product>button {
